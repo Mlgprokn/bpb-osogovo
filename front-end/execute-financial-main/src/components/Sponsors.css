@@ -1,0 +1,13 @@
+.sponsor .container {
+  align-items: center;
+  justify-content: center;
+}
+
+.images {
+  display: inline-block;
+}
+
+.sponsor {
+  height: 100px;
+  width: auto;
+}

@@ -1,0 +1,94 @@
+.home {
+  background-color: var(--overlay);
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.home:before {
+  content: '';
+  background: url('./images/osogovomt.jpg') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.home .content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.home .countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .countdown .time {
+  margin: 20px 20px 0px 20px;
+  font-size: 4rem;
+  font-weight: 600;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.5px;
+}
+
+.home .countdown section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 17%;
+}
+
+.home .button {
+  margin: 1rem 0;
+  width: 300px;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  color: #333;
+}
+
+.home .button:hover {
+  background-color: var(--secondary-dark);
+  border: 1px solid var(--secondary-dark);
+}
+
+@media screen and (max-width: 600px) {
+  .home .countdown .time {
+    font-size: 3rem;
+  }
+
+  .home .countdown .small {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .home .countdown .time {
+    font-size: 2.5rem;
+  }
+
+  .home .countdown .small {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home .countdown .time {
+    font-size: 2rem;
+  }
+
+  .home .countdown .small {
+    font-size: 0.5rem;
+  }
+}
