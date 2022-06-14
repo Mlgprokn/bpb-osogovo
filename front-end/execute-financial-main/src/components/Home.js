@@ -66,7 +66,7 @@ const Home = () => {
           </section>
           <section>
             <p className="time">{hours}</p>
-            <p className="small">Часове</p>
+            <p className="small">Часа</p>
           </section>
           <section>
             <p className="time">{minutes}</p>

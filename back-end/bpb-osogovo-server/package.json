@@ -1,0 +1,23 @@
+{
+  "name": "bpb-osogovo-server",
+  "version": "1.0.0",
+  "description": "Rest API used for the bpbosogovo website",
+  "main": "./source/server.js",
+  "scripts": {
+    "start": "nodemon ./source/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bpb-osogovo"
+  },
+  "author": "David Stanislavov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

@@ -46,20 +46,20 @@
 }
 
 @media screen and (max-width: 940px) {
-  .tracks .container {
+  .tracks .content {
     grid-template-columns: 1fr;
   }
 
-  .tracks .container {
+  .tracks .content {
     width: 100%;
   }
 
-  .tracks .container img {
+  .tracks .content img {
     padding: 0rem;
     width: 90vw;
   }
 
-  .tracks .container .col-2 {
+  .tracks .content .col-2 {
     padding: 0;
   }
 
