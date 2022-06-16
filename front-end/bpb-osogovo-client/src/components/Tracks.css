@@ -1,5 +1,8 @@
 .tracks {
   background-color: var(--tertiary-color-fade);
+  background: url('./images/ruen.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   margin: auto;
   padding: 1rem 1rem 1rem 1rem;
   width: 100%;
