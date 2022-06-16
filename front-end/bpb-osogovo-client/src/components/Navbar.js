@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { Link } from 'react-scroll';
 import logo from './images/logo.png';
-
+import { Link } from 'react-scroll';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -13,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="header">
-      <nav className="navbar">
+      <nav className="nav">
         <Link
           to="home"
           activeClass="logo"

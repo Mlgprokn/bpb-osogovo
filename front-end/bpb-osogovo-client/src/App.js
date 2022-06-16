@@ -47,7 +47,14 @@ function App() {
       <Footer />
       {showButton && (
         <button onClick={scrollToTop} className="back-to-top">
-          <Link to="home" spy={true} smooth={true} offset={0} duration={500}>
+          <Link
+            className="colored-link"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
             <BsArrowUpCircle />
           </Link>
         </button>

@@ -1,11 +1,11 @@
 .tracks {
   background-color: var(--tertiary-color-fade);
   margin: auto;
-  padding: 8rem 1rem 0 1rem;
+  padding: 1rem 1rem 1rem 1rem;
   width: 100%;
 }
 
-.tracks .container {
+/*.tracks .container {
   width: 1240px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -27,11 +27,25 @@
   justify-content: center;
   align-items: center;
   padding: 3rem;
+}*/
+
+.tracks .fill {
+  width: 100%;
+  height: auto;
+}
+
+.tracks .card-content {
+  align-items: center;
+  text-align: center;
+}
+
+.tracks .card-content .content {
+  align-items: center;
+  text-align: left;
 }
 
 .tracks .characteristic {
   display: flex;
-  float: left;
   margin: 10px;
 }
 
@@ -40,7 +54,7 @@
   margin-right: 10px;
 }
 
-.tracks img {
+/*.tracks img {
   width: 650px;
   height: auto;
 }
@@ -67,3 +81,4 @@
     margin-bottom: 1rem;
   }
 }
+*/

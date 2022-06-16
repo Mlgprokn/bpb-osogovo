@@ -11,7 +11,7 @@
   opacity: 80%;
 }
 
-.header .navbar {
+.header .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,12 +25,12 @@
   color: white;
 }
 
-.header .navbar img {
+.header .nav img {
   width: 70px;
   height: auto;
 }
 
-.header .navbar img:hover {
+.header .nav img:hover {
   cursor: pointer;
 }
 
@@ -64,7 +64,7 @@
     background-color: rgba(0, 0, 0, 0.9);
   }
 
-  .header .navbar {
+  .header .nav {
     max-width: 100%;
   }
 
@@ -93,7 +93,7 @@
     margin: 1.5rem 0;
   }
 
-  .header .navbar img {
+  .header .nav img {
     width: 150px;
   }
 }

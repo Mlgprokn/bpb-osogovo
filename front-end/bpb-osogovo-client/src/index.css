@@ -37,7 +37,7 @@ a {
   text-decoration: none;
 }
 
-.button {
+/*.button {
   padding: 17px 28px;
   font-size: 1.2rem;
   color: #fff;
@@ -52,7 +52,7 @@ a {
 .button:hover {
   background: var(--primary-dark);
   border: 1px solid var(--primary-dark);
-}
+}*/
 
 .line {
   display: block;
@@ -84,9 +84,7 @@ a {
   bottom: 20px;
   right: 20px;
   font-size: 45px;
-  font-weight: 400;
   background: #a1a1a1;
-  color: #545454;
   height: 45px;
   width: 45px;
   border-radius: 50%;
@@ -96,8 +94,17 @@ a {
 
 .back-to-top:hover {
   background-color: #545454;
-  color: black;
   box-shadow: 0 5px 10px #ccc;
+}
+
+.back-to-top .colored-link {
+  position: relative;
+  bottom: 3px;
+  color: #545454 !important;
+}
+
+.back-to-top .colored-link:hover {
+  color: black !important;
 }
 
 .container-title {
