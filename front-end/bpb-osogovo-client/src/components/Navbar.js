@@ -38,7 +38,7 @@ const Navbar = () => {
               to="tracks"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={0}
               duration={500}
               onClick={closeMenu}
             >
@@ -77,7 +77,7 @@ const Navbar = () => {
               to="info"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={0}
               duration={500}
               onClick={closeMenu}
             >
@@ -90,7 +90,7 @@ const Navbar = () => {
               to="sponsors"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={0}
               duration={500}
               onClick={closeMenu}
             >

@@ -6,7 +6,7 @@ import td from './images/td.jpg';
 const Sponsors = () => {
   return (
     <div className="sponsors" id="sponsors">
-      <h2 className="container-title">Спонсори</h2>
+      <h2 className="container-title">Спонсори и приятели</h2>
       <span className="line"></span>
       <div className="container">
         <div className="images">

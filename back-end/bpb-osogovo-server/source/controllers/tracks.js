@@ -21,13 +21,14 @@ router.post('/', (req, res) => {
   //create a new track
   const track = new Track({
     title: req.body.title,
-    lenght: req.body.lenght,
+    length: req.body.length,
     displacement: req.body.displacement,
     altitudeAtStartFinish: req.body.altitudeAtStartFinish,
     lowestPoint: req.body.lowestPoint,
     highestPoint: req.body.highestPoint,
     aidStration: req.body.aidStration,
     controlTime: req.body.controlTime,
+    image: req.body.image,
   });
 
   //save the track

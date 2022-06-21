@@ -5,12 +5,29 @@ const express = require('express');
 const app = express();
 const { json } = require('express');
 
+//set up cors
+const cors = require('cors');
+
 //set up mongoose
 const mongoose = require('mongoose');
 
 //middleware
 //use json
 app.use(express.json());
+
+//use cors
+const whitelist = ['http://localhost:3000'];
+const corsOptions = {
+  origin: function (origin, callback) {
+    if (!origin || whitelist.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true,
+};
+app.use(cors(corsOptions));
 
 //routes
 
@@ -29,4 +46,4 @@ db.on('error', (error) => console.log(error));
 db.once('open', () => console.log('Connected to mongodb'));
 
 //start the server
-app.listen(3000, () => console.log('Server started on 3000'));
+app.listen(3001, () => console.log('Server started on 3001'));

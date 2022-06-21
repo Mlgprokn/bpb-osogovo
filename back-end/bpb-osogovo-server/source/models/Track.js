@@ -5,7 +5,7 @@ const TrackSchema = mongoose.Schema({
     type: String,
     required: true,
   },
-  lenght: {
+  length: {
     type: String,
     required: true,
   },
@@ -32,6 +32,10 @@ const TrackSchema = mongoose.Schema({
   controlTime: {
     type: String,
     default: 'Няма',
+  },
+  image: {
+    type: String,
+    required: true,
   },
 });
 

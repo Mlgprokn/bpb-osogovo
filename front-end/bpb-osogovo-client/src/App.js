@@ -25,6 +25,8 @@ function App() {
         setShowButton(false);
       }
     });
+
+    document.title = 'Благотворително планинско бягане Осогово';
   }, []);
 
   const scrollToTop = () => {

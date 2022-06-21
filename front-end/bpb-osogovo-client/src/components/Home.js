@@ -57,7 +57,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      <div class="fixed-bg"></div>
+      <div className="fixed-bg"></div>
       <div className="content">
         <div className="countdown">
           <section>

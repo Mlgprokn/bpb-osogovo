@@ -4,15 +4,15 @@ import { BsInstagram, BsFacebook } from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="ftr">
       <div className="container">
         <ul>
-          <li className="nav-item">
+          <li>
             <a href="/">
               <BsFacebook />
             </a>
           </li>
-          <li className="nav-item">
+          <li>
             <a href="#about">
               <BsInstagram />
             </a>

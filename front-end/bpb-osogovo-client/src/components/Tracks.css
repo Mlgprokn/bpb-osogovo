@@ -1,10 +1,9 @@
 .tracks {
-  background-color: var(--tertiary-color-fade);
   background: url('./images/ruen.jpg') no-repeat;
   background-size: cover;
   background-attachment: fixed;
   margin: auto;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 3.5rem 1rem 1rem 1rem;
   width: 100%;
 }
 
@@ -31,6 +30,20 @@
   align-items: center;
   padding: 3rem;
 }*/
+
+.tracks .tabs a {
+  color: black;
+  font-weight: 600;
+}
+
+.tracks .tabs a:hover {
+  color: white;
+  font-weight: 600;
+}
+
+.tracks .tabs .is-active a {
+  color: white;
+}
 
 .tracks .fill {
   width: 100%;
