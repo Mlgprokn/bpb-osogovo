@@ -30,10 +30,25 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 //routes
-
 //tracks routes
 const tracksRoutes = require('./controllers/tracks');
 app.use('/api/tracks', tracksRoutes);
+
+//info routes
+const infoRoutes = require('./controllers/info');
+app.use('/api/info', infoRoutes);
+
+//charities routes
+const charitiesRoutes = require('./controllers/charities');
+app.use('/api/charities', charitiesRoutes);
+
+//sponsors routes
+const sponsorsRoutes = require('./controllers/sponsors');
+app.use('/api/sponsors', sponsorsRoutes);
+
+//countdowns routes
+const countdownsRoutes = require('./controllers/countdowns');
+app.use('/api/countdowns', countdownsRoutes);
 
 //connect to mongodb
 mongoose.connect(process.env.DATABASE_URL);
